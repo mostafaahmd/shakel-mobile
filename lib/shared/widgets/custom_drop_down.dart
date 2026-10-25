@@ -53,7 +53,7 @@ class _CustomDropdownState extends State<CustomDropdown> {
     return SizedBox(
       width: widget.width,
       child: DropdownButtonFormField<String>(
-        value: selectedValue,
+        initialValue: selectedValue,
         style: AppTextStyles.mediumText(context).copyWith(
           color: AppColors.black,
           fontSize: 14.sp,
