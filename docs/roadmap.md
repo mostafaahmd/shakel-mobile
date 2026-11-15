@@ -1,5 +1,9 @@
 # Roadmap
 
+Historical RoomGenius sprint outline. The
+[Shakel master plan](product/README.md) now defines milestones M0–M8 and their
+exit criteria.
+
 ## Sprint 0 — Foundation Lock
 - Repository setup
 - Documentation setup

@@ -1,5 +1,8 @@
 # RoomGenius 2.0 - PRD v0.1
 
+Historical draft. The [Shakel v3 plan](../product/README.md) is the current
+product reference; reconcile this draft before using it for M0 acceptance.
+
 Status: Draft for M0
 Last updated: 2026-10-25
 

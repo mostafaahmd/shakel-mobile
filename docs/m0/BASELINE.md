@@ -1,5 +1,9 @@
 # M0 Legacy Stabilization Baseline
 
+Historical 2026-10-25 snapshot. Use the
+[current Shakel M0 evidence](../product/M0_CURRENT_STATE.md) for the active
+toolchain, rename, build, and CI status.
+
 Last verified: 2026-10-25
 Branch: `feat/design-project-domain`
 
