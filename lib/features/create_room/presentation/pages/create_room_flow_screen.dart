@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:roomgenius_mobile/app/di/service_locator.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/cubit/create_room_state.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/prompt_preview_screen.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/refine_details_screen.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/select_design_style_screen.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/select_mood_screen.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/select_room_type_screen.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/pages/upload_room_photo_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
+import 'package:shakel_mobile/features/create_room/presentation/cubit/create_room_state.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/prompt_preview_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/refine_details_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/select_design_style_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/select_mood_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/select_room_type_screen.dart';
+import 'package:shakel_mobile/features/create_room/presentation/pages/upload_room_photo_screen.dart';
 
 class CreateRoomFlowScreen extends StatefulWidget {
   const CreateRoomFlowScreen({super.key});
@@ -95,56 +94,53 @@ class _CreateRoomFlowScreenState extends State<CreateRoomFlowScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (_) => getIt<CreateRoomCubit>(),
-      child: BlocBuilder<CreateRoomCubit, CreateRoomState>(
-        builder: (context, state) {
-          final canContinue = _canContinue(state);
+    return BlocBuilder<CreateRoomCubit, CreateRoomState>(
+      builder: (context, state) {
+        final canContinue = _canContinue(state);
 
-          return Scaffold(
-            appBar: AppBar(
-              leading: IconButton(
-                onPressed: _goBack,
-                icon: const Icon(Icons.arrow_back),
-              ),
-              title: const Text('Create Room Project'),
+        return Scaffold(
+          appBar: AppBar(
+            leading: IconButton(
+              onPressed: _goBack,
+              icon: const Icon(Icons.arrow_back),
             ),
-            body: Column(
-              children: [
-                LinearProgressIndicator(
-                  value: (_currentStep + 1) / _totalSteps,
+            title: const Text('Create Room Project'),
+          ),
+          body: Column(
+            children: [
+              LinearProgressIndicator(
+                value: (_currentStep + 1) / _totalSteps,
+              ),
+              Expanded(
+                child: PageView(
+                  controller: _pageController,
+                  physics: const NeverScrollableScrollPhysics(),
+                  children: const [
+                    UploadRoomPhotoScreen(),
+                    SelectRoomTypeScreen(),
+                    SelectDesignStyleScreen(),
+                    SelectDesignMoodScreen(),
+                    RefineDetailsScreen(),
+                    PromptPreviewScreen(),
+                  ],
                 ),
-                Expanded(
-                  child: PageView(
-                    controller: _pageController,
-                    physics: const NeverScrollableScrollPhysics(),
-                    children: const [
-                      UploadRoomPhotoScreen(),
-                      SelectRoomTypeScreen(),
-                      SelectDesignStyleScreen(),
-                      SelectDesignMoodScreen(),
-                      RefineDetailsScreen(),
-                      PromptPreviewScreen(),
-                    ],
-                  ),
-                ),
-                SafeArea(
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: SizedBox(
-                      width: double.infinity,
-                      child: FilledButton(
-                        onPressed: canContinue ? _goNext : null,
-                        child: Text(_nextButtonText),
-                      ),
+              ),
+              SafeArea(
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: SizedBox(
+                    width: double.infinity,
+                    child: FilledButton(
+                      onPressed: canContinue ? _goNext : null,
+                      child: Text(_nextButtonText),
                     ),
                   ),
                 ),
-              ],
-            ),
-          );
-        },
-      ),
+              ),
+            ],
+          ),
+        );
+      },
     );
   }
 }

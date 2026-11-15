@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/entities/prompt_content.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/entities/prompt_request.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_language.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_preset.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/services/prompt_composer.dart';
+import 'package:shakel_mobile/features/design_studio/domain/entities/prompt_content.dart';
+import 'package:shakel_mobile/features/design_studio/domain/entities/prompt_request.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_language.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_preset.dart';
+import 'package:shakel_mobile/features/design_studio/domain/services/prompt_composer.dart';
 
 import '../../../design_studio/domain/enums/budget_level.dart';
 import '../../../design_studio/domain/enums/design_mood.dart';

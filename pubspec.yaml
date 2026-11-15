@@ -1,4 +1,4 @@
-name: roomgenius_mobile
+name: shakel_mobile
 description: "A Flutter mobile app for AI-powered room redesign and interior concept generation."
 
 version: 1.0.0+1
@@ -70,12 +70,6 @@ dependencies:
   # flutter_local_notifications: ^19.5.0
   # timezone: ^0.10.1
 
-  # Firebase services
-  firebase_core: ^4.2.0
-  firebase_auth: ^6.1.1
-  firebase_messaging: ^16.0.3
-  firebase_crashlytics: ^5.0.7
-  firebase_analytics: ^12.1.2
   dio_cookie_manager: ^3.1.1
   cookie_jar: ^4.0.8
   google_sign_in: ^7.2.0

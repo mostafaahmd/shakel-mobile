@@ -9,7 +9,7 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appTitle => 'روم جينيس';
+  String get appTitle => 'شَكْل';
 
   @override
   String get next => 'التالي';
@@ -36,7 +36,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get createNewDesign => 'إنشاء تصميم جديد';
 
   @override
-  String get splashTitle => 'روم جينيس';
+  String get splashTitle => 'شَكْل';
 
   @override
   String get splashSubtitle =>

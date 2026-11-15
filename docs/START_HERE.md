@@ -1,5 +1,10 @@
 # Start Here
 
+This repository is transitioning to Shakel. Start with the
+[master plan](product/README.md), [current M0 evidence](product/M0_CURRENT_STATE.md),
+and [M0 backlog](M0_BACKLOG.md). The template guidance below predates this
+product transition and is not the M0 exit checklist.
+
 ## Before building the first real feature
 - review `docs/ARCHITECTURE.md`
 - review `docs/FEATURE_WORKFLOW.md`

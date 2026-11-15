@@ -1,5 +1,5 @@
-import 'package:roomgenius_mobile/core/error/result.dart';
-import 'package:roomgenius_mobile/core/networking/safe_repository_call.dart';
+import 'package:shakel_mobile/core/error/result.dart';
+import 'package:shakel_mobile/core/networking/safe_repository_call.dart';
 import '../../domain/entities/feature_entity.dart';
 import '../../domain/repositories/feature_repository.dart';
 import '../datasources/local/feature_local_data_source.dart';

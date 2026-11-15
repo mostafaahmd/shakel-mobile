@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roomgenius_mobile/app/theme/styles.dart';
+import 'package:shakel_mobile/app/theme/styles.dart';
 
 import '../constants/app_defaults.dart';
 

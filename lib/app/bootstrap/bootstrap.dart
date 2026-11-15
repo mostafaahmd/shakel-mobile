@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:roomgenius_mobile/app/app.dart';
-import 'package:roomgenius_mobile/app/config/environment.dart';
-import 'package:roomgenius_mobile/app/di/service_locator.dart';
-import 'package:roomgenius_mobile/core/utils/bloc_observer.dart';
-import 'package:roomgenius_mobile/core/utils/logger.dart';
+import 'package:shakel_mobile/app/app.dart';
+import 'package:shakel_mobile/app/config/environment.dart';
+import 'package:shakel_mobile/app/di/service_locator.dart';
+import 'package:shakel_mobile/core/utils/bloc_observer.dart';
+import 'package:shakel_mobile/core/utils/logger.dart';
 
 Future<void> bootstrap({
   required Environment environment,

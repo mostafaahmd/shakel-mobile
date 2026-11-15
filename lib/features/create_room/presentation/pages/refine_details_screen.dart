@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/cubit/create_room_state.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_language.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_preset.dart';
+import 'package:shakel_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
+import 'package:shakel_mobile/features/create_room/presentation/cubit/create_room_state.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_language.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_preset.dart';
 
 import '../../../design_studio/domain/enums/budget_level.dart';
 import '../widgets/selectable_option_card.dart';

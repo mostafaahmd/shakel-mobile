@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:roomgenius_mobile/app/theme/styles.dart';
+import 'package:shakel_mobile/app/theme/styles.dart';
 import '../../app/theme/colors.dart';
 
 // app section card

@@ -4,7 +4,7 @@ class AppColors {
   const AppColors._();
 
   // =========================================================
-  // BRAND COLORS - ROOMGENIUS
+  // BRAND COLORS - SHAKEL
   // =========================================================
 
   /// Main primary purple used across buttons, highlights, and actions.

@@ -1,7 +1,7 @@
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/budget_level.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/design_mood.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/design_style.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/room_type.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/budget_level.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/design_mood.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/design_style.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/room_type.dart';
 
 import '../entities/prompt_content.dart';
 import '../entities/prompt_request.dart';

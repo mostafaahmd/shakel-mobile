@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'RoomGenius';
+  String get appTitle => 'Shakel';
 
   @override
   String get next => 'Next';
@@ -36,7 +36,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get createNewDesign => 'Create New Design';
 
   @override
-  String get splashTitle => 'RoomGenius';
+  String get splashTitle => 'Shakel';
 
   @override
   String get splashSubtitle => 'AI-powered room redesign in a few taps.';

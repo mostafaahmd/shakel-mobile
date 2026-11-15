@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:roomgenius_mobile/app/di/service_locator.dart';
-import 'package:roomgenius_mobile/app/routing/routes.dart';
-import 'package:roomgenius_mobile/features/splash/presentation/cubit/splash_cubit.dart';
-import 'package:roomgenius_mobile/features/splash/presentation/cubit/splash_state.dart';
-import 'package:roomgenius_mobile/l10n/app_localizations.dart';
-import 'package:roomgenius_mobile/shared/constants/app_images.dart';
+import 'package:shakel_mobile/app/di/service_locator.dart';
+import 'package:shakel_mobile/app/routing/routes.dart';
+import 'package:shakel_mobile/features/splash/presentation/cubit/splash_cubit.dart';
+import 'package:shakel_mobile/features/splash/presentation/cubit/splash_state.dart';
+import 'package:shakel_mobile/l10n/app_localizations.dart';
+import 'package:shakel_mobile/shared/constants/app_images.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -174,7 +174,7 @@ class _SplashScreenState extends State<SplashScreen>
                   ),
                   SizedBox(height: 22.h),
                   Text(
-                    'RoomGenius',
+                    'Shakel',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 30.sp,

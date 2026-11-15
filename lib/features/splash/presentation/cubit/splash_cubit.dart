@@ -1,8 +1,8 @@
 // this splash cubit will check if the user has seen the onboarding screens before and emit the appropriate state to navigate to either the onboarding or home screen.
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:roomgenius_mobile/core/storage/cache_keys.dart';
-import 'package:roomgenius_mobile/core/storage/local_storage_service.dart';
-import 'package:roomgenius_mobile/features/splash/presentation/cubit/splash_state.dart';
+import 'package:shakel_mobile/core/storage/cache_keys.dart';
+import 'package:shakel_mobile/core/storage/local_storage_service.dart';
+import 'package:shakel_mobile/features/splash/presentation/cubit/splash_state.dart';
 
 /// SplashCubit manages the state of the splash screen, including loading status and navigation route based on whether the user has seen the onboarding screens before.
 class SplashCubit extends Cubit<SplashState> {

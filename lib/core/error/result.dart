@@ -1,4 +1,4 @@
-import 'package:roomgenius_mobile/core/error/failure.dart';
+import 'package:shakel_mobile/core/error/failure.dart';
 
 sealed class Result<T> {
   const Result();

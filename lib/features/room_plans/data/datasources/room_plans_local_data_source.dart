@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:roomgenius_mobile/core/storage/cache_keys.dart';
-import 'package:roomgenius_mobile/core/storage/local_storage_service.dart';
+import 'package:shakel_mobile/core/storage/cache_keys.dart';
+import 'package:shakel_mobile/core/storage/local_storage_service.dart';
 
 import '../../domain/entities/room_plan.dart';
 

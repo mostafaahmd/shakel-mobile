@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:roomgenius_mobile/app/di/service_locator.dart';
-import 'package:roomgenius_mobile/app/routing/routes.dart';
-import 'package:roomgenius_mobile/core/storage/local_storage_service.dart';
-import 'package:roomgenius_mobile/features/onboarding/domain/entities/onboarding_step.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/cubit/onboarding_cubit.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/cubit/onboarding_state.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/widgets/onboarding_bottom_card.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/widgets/onboarding_room_preview.dart';
-import 'package:roomgenius_mobile/l10n/app_localizations.dart';
-import 'package:roomgenius_mobile/shared/constants/app_images.dart';
+import 'package:shakel_mobile/app/di/service_locator.dart';
+import 'package:shakel_mobile/app/routing/routes.dart';
+import 'package:shakel_mobile/core/storage/local_storage_service.dart';
+import 'package:shakel_mobile/features/onboarding/domain/entities/onboarding_step.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/cubit/onboarding_cubit.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/cubit/onboarding_state.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/widgets/onboarding_bottom_card.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/widgets/onboarding_room_preview.dart';
+import 'package:shakel_mobile/l10n/app_localizations.dart';
+import 'package:shakel_mobile/shared/constants/app_images.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
