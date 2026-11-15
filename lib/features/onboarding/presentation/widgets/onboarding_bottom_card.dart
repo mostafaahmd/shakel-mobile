@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:roomgenius_mobile/app/theme/colors.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/widgets/onboarding_progress_indicator.dart';
+import 'package:shakel_mobile/app/theme/colors.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/widgets/onboarding_progress_indicator.dart';
 
 class OnboardingBottomCard extends StatelessWidget {
   const OnboardingBottomCard({

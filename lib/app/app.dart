@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:roomgenius_mobile/app/di/service_locator.dart';
-import 'package:roomgenius_mobile/app/localization/locale_cubit.dart';
-import 'package:roomgenius_mobile/app/routing/app_router.dart';
-import 'package:roomgenius_mobile/app/theme/app_theme_cubit.dart';
-import 'package:roomgenius_mobile/l10n/app_localizations.dart';
+import 'package:shakel_mobile/app/di/service_locator.dart';
+import 'package:shakel_mobile/app/localization/locale_cubit.dart';
+import 'package:shakel_mobile/app/routing/app_router.dart';
+import 'package:shakel_mobile/app/theme/app_theme_cubit.dart';
+import 'package:shakel_mobile/l10n/app_localizations.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -31,7 +31,7 @@ class AppWidget extends StatelessWidget {
                 builder: (context, locale) {
                   return MaterialApp.router(
                     debugShowCheckedModeBanner: false,
-                    title: 'RoomGenius',
+                    title: 'Shakel',
                     theme: themeState.themeData,
                     locale: locale,
                     routerConfig: appRouter,

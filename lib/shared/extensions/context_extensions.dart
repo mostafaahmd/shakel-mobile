@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:roomgenius_mobile/l10n/app_localizations.dart';
+import 'package:shakel_mobile/l10n/app_localizations.dart';
 
 extension BuildContextExtensions on BuildContext {
   double get screenWidth => MediaQuery.of(this).size.width;

@@ -1,6 +1,6 @@
 // this file is the main home screen that users see after completing the onboarding process. It currently just displays a simple text widget with the localized string for "home". In the future, this screen will be expanded to include more features and functionality related to the main purpose of the app, such as browsing and managing rooms, accessing user settings, and more.
 import 'package:flutter/material.dart';
-import 'package:roomgenius_mobile/l10n/app_localizations.dart';
+import 'package:shakel_mobile/l10n/app_localizations.dart';
 
 /// HomeScreen is the main home screen that users see after completing the onboarding process.
 class HomeScreen extends StatelessWidget {

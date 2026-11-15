@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:roomgenius_mobile/features/onboarding/domain/entities/onboarding_step.dart';
+import 'package:shakel_mobile/features/onboarding/domain/entities/onboarding_step.dart';
 
 enum OnboardingError {
   saveFailed,

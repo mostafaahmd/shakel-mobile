@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "RoomGenius",
+  "appTitle": "Shakel",
   "next": "Next",
   "getStarted": "Get Started",
   "language": "Language",
@@ -9,7 +9,7 @@
   "settings": "Settings",
   "home": "Home",
   "createNewDesign": "Create New Design",
-  "splashTitle": "RoomGenius",
+  "splashTitle": "Shakel",
   "splashSubtitle": "AI-powered room redesign in a few taps.",
   "onboardingTitle1": "Redesign your room with AI",
   "onboardingSubtitle1": "Upload your room photo and generate fresh interior concepts.",

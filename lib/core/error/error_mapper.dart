@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:roomgenius_mobile/core/error/app_exception.dart';
-import 'package:roomgenius_mobile/core/error/failure.dart';
-import 'package:roomgenius_mobile/core/models/api_error_model.dart';
+import 'package:shakel_mobile/core/error/app_exception.dart';
+import 'package:shakel_mobile/core/error/failure.dart';
+import 'package:shakel_mobile/core/models/api_error_model.dart';
 
 class ErrorMapper {
   const ErrorMapper._();

@@ -1,9 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:roomgenius_mobile/core/storage/cache_keys.dart';
-import 'package:roomgenius_mobile/core/storage/local_storage_service.dart';
-import 'package:roomgenius_mobile/features/onboarding/domain/entities/onboarding_step.dart';
-import 'package:roomgenius_mobile/features/onboarding/presentation/cubit/onboarding_state.dart';
-import 'package:roomgenius_mobile/shared/constants/app_images.dart';
+import 'package:shakel_mobile/core/storage/cache_keys.dart';
+import 'package:shakel_mobile/core/storage/local_storage_service.dart';
+import 'package:shakel_mobile/features/onboarding/domain/entities/onboarding_step.dart';
+import 'package:shakel_mobile/features/onboarding/presentation/cubit/onboarding_state.dart';
+import 'package:shakel_mobile/shared/constants/app_images.dart';
 
 class OnboardingCubit extends Cubit<OnboardingState> {
   OnboardingCubit(this._localStorage)

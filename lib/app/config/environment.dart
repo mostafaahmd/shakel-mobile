@@ -17,14 +17,14 @@ class Environment {
 
   static const development = Environment(
     type: EnvironmentType.development,
-    appName: 'RoomGenius Dev',
+    appName: 'Shakel Dev',
     enableLogging: true,
     enableErrorTracking: false,
   );
 
   static const production = Environment(
     type: EnvironmentType.production,
-    appName: 'RoomGenius',
+    appName: 'Shakel',
     enableLogging: false,
     enableErrorTracking: true,
   );

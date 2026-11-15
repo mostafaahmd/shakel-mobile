@@ -101,7 +101,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'RoomGenius'**
+  /// **'Shakel'**
   String get appTitle;
 
   /// No description provided for @next.
@@ -155,7 +155,7 @@ abstract class AppLocalizations {
   /// No description provided for @splashTitle.
   ///
   /// In en, this message translates to:
-  /// **'RoomGenius'**
+  /// **'Shakel'**
   String get splashTitle;
 
   /// No description provided for @splashSubtitle.

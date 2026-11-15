@@ -1,5 +1,5 @@
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_language.dart';
-import 'package:roomgenius_mobile/features/design_studio/domain/enums/prompt_preset.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_language.dart';
+import 'package:shakel_mobile/features/design_studio/domain/enums/prompt_preset.dart';
 
 import '../../../design_studio/domain/enums/budget_level.dart';
 import '../../../design_studio/domain/enums/design_mood.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:roomgenius_mobile/app/routing/routes.dart';
+import 'package:shakel_mobile/app/routing/routes.dart';
 
 import '../cubit/room_plans_cubit.dart';
 import '../cubit/room_plans_state.dart';

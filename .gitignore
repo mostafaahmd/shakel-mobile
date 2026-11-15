@@ -1,5 +1,6 @@
 .dart_tool/
 .packages
+.flutter-plugins-dependencies
 .pub/
 build/
 coverage/
@@ -9,3 +10,6 @@ android/.gradle/
 ios/Pods/
 *.iml
 *.log
+
+# FVM Version Cache
+.fvm/

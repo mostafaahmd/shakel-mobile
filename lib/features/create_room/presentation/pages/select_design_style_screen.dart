@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:roomgenius_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
+import 'package:shakel_mobile/features/create_room/presentation/cubit/create_room_cubit.dart';
 
 import '../../../design_studio/domain/enums/design_style.dart';
 import '../cubit/create_room_state.dart';

@@ -1,4 +1,4 @@
-import 'package:roomgenius_mobile/core/error/result.dart';
+import 'package:shakel_mobile/core/error/result.dart';
 
 import '../entities/room_plan.dart';
 

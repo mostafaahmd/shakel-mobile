@@ -1,6 +1,6 @@
 {
   "@@locale": "ar",
-  "appTitle": "روم جينيس",
+  "appTitle": "شَكْل",
   "continueText": "متابعة",
   "skip": "تخطي",
   "next": "التالي",
@@ -11,7 +11,7 @@
   "settings": "الإعدادات",
   "home": "الرئيسية",
   "createNewDesign": "إنشاء تصميم جديد",
-  "splashTitle": "روم جينيس",
+  "splashTitle": "شَكْل",
   "splashSubtitle": "إعادة تصميم الغرف بالذكاء الاصطناعي في خطوات بسيطة.",
   "onboardingTitle1": "أعد تصميم غرفتك بالذكاء الاصطناعي",
   "onboardingSubtitle1": "ارفع صورة الغرفة واحصل على أفكار تصميم جديدة.",

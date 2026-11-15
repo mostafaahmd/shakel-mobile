@@ -5,8 +5,6 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("dev.flutter.flutter-gradle-plugin")
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
 }
 
 val keystoreProperties = Properties()
@@ -16,7 +14,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.roomgenius.mobile"
+    namespace = "com.shakel.mobile"
     compileSdk = 36
     ndkVersion = "27.3.13750724"
 
@@ -46,15 +44,15 @@ android {
     productFlavors {
         create("development") {
             dimension = "environment"
-            applicationId = "com.roomgenius.mobile.dev"
-            resValue("string", "app_name", "Roomgenius Dev")
+            applicationId = "com.shakel.mobile.dev"
+            resValue("string", "app_name", "Shakel Dev")
             versionNameSuffix = "-dev"
         }
 
         create("production") {
             dimension = "environment"
-            applicationId = "com.roomgenius.mobile"
-            resValue("string", "app_name", "Roomgenius")
+            applicationId = "com.shakel.mobile"
+            resValue("string", "app_name", "Shakel")
         }
     }
 
